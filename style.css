@@ -105,31 +105,31 @@
 	background-position: center;
 }
 
-.booking-form {
+.appointment-form {
 	background: #fff;
 	-webkit-box-shadow: 0px 2px 5px -2px rgba(0, 0, 0, 0.3);
 	box-shadow: 0px 2px 5px -2px rgba(0, 0, 0, 0.3);
 	border: 1px solid rgba(60, 64, 101, 0.1);
 }
 
-.booking-form>form .row.no-margin {
+.appointment-form>form .row.no-margin {
 	margin-right: 0px;
 	margin-left: 0px;
 }
 
-.booking-form>form .row.no-margin>[class*="col-"] {
+.appointment-form>form .row.no-margin>[class*="col-"] {
 	padding-right: 0px;
 	padding-left: 0px;
 }
 
-.booking-form .form-header {
+.appointment-form .form-header {
 	padding: 15px 10px;
 	height: 110px;
 	line-height: 110px;
 	text-align: center;
 }
 
-.booking-form .form-header h2 {
+.appointment-form .form-header h2 {
 	font-family: 'Alegreya', serif;
 	margin: 0;
 	display: inline-block;
@@ -144,7 +144,7 @@
 	margin-bottom: 0px;
 }
 
-.booking-form .form-control {
+.appointment-form .form-control {
 	font-family: 'Alegreya', serif;
 	background-color: transparent;
 	border-radius: 0px;
@@ -158,13 +158,13 @@
 	font-weight: 700;
 }
 
-.booking-form select.form-control {
+.appointment-form select.form-control {
 	-webkit-appearance: none;
 	-moz-appearance: none;
 	appearance: none;
 }
 
-.booking-form select.form-control+.select-arrow {
+.appointment-form select.form-control+.select-arrow {
 	position: absolute;
 	right: 0px;
 	bottom: 20px;
@@ -177,14 +177,14 @@
 	font-size: 12px;
 }
 
-.booking-form select.form-control+.select-arrow:after {
+.appointment-form select.form-control+.select-arrow:after {
 	content: '\279C';
 	display: block;
 	-webkit-transform: rotate(90deg);
 	transform: rotate(90deg);
 }
 
-.booking-form .form-label {
+.appointment-form .form-label {
 	color: #818390;
 	display: block;
 	font-weight: 400;
@@ -193,12 +193,12 @@
 	font-size: 14px;
 }
 
-.booking-form .form-btn {
+.appointment-form .form-btn {
 	padding: 15px 10px;
 	height: 110px;
 }
 
-.booking-form .submit-btn {
+.appointment-form .submit-btn {
 	background: #9a8067;
 	color: #fff;
 	border: none;
@@ -210,28 +210,28 @@
 	width: 100%;
 }
 
-/* About Section */
+/* Contact Section */
  
-.about {
+.contact {
   background: rgb(224, 251, 222);
   background: linear-gradient(360deg, rgb(245, 255, 245) 0%,white);
   padding: 100px 0 20px 0;
   text-align: center;
 }
 
-.about h1 {
+.contact h1 {
   font-size: 2.5rem;
   margin-bottom: 20px;
 }
 
-.about p {
+.contact p {
   font-size: 1rem;
   color: #323030;
   max-width: 800px;
   margin: 0 auto;
 }
 
-.about-info {
+.contact-info {
   margin: 2rem 2rem;
   display: flex;
   align-items: center;
@@ -239,20 +239,20 @@
   text-align: left;
 }
 
-.about-img {
+.contact-img {
   width: 20rem;
   height: 20rem;
 
 }
 
-.about-img img {
+.contact-img img {
   width: 100%;
   height: 100%;
   border-radius: 5px;
   object-fit: contain;
 }
 
-.about-info p {
+.contact-info p {
   font-size: 1.3rem;
   margin: 0 2rem;
   text-align: justify;
