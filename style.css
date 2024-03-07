@@ -3,6 +3,18 @@
     padding:0;
     font-family:verdana;
   }
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    text-align: center;
+}
 
   nav{
     width: 100%;
